@@ -1,0 +1,60 @@
+.container{
+    border: 0px solid black;
+    background-color: rgba(100, 149, 237, 0.7);
+    border-radius: 10px 10px 10px 10px;
+    height: 490px;
+    width: 400px;
+    padding: 0px;
+}
+input[type=text]{
+    border: 0px solid white;
+    border-radius: 10px 10px 5px 5px;
+    height: 60px;
+    width: 380px;
+    /* margin-left: 3px; */
+}
+.btn-primary{
+    border: 2px solid transparent;
+    background-color:steelblue;
+    height: 40px;
+    width: 54px;
+    padding: 3px;
+    font: normal bold 25px/20px monospace;
+    /* margin: 0px -2px 0px -1px; */
+    /* float: right; */
+}
+.btn-secondary{
+    /* background-color: aliceblue; */
+    height: 33px;
+    width: 47px;
+    font: italic bold 13px/30px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 2px;
+    /* float: left; */
+}
+.btn-light{
+    margin: 7px 0px 0px 18px;
+    height: 40px;
+    width: 51px;
+}
+.btn-success{
+    height: 40px;
+    width: 60px;
+}
+.btn-info{
+    margin: 5px 0px 0px 0px;
+    height: 40px;
+    width: 60px;
+}
+.btn-dark{
+    margin: 5px 0px;
+}
+.ansbtn, .rsltbtn {
+    width: 60px;
+}
+#output{
+    overflow-y: scroll;
+}
+table, tr, td{
+    border: 0px solid black;
+}
